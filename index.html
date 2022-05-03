@@ -2,6 +2,8 @@
 <html>
 
 <head>
+  <meta name="theme-color" content="#FF6600">
+  <meta name="apple-mobile-web-app-status-bar" content="#FF6600">
   <meta charset="utf-8" />
   <title>TinDog</title>
   <link rel="stylesheet" href="css/styles.css" />
@@ -17,6 +19,10 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Manifest File and Apple Touch Icon -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="./images/dog-img_144x144.png">
+  <link rel="apple-touch-icon" href="./images/dog-img_512x512.png">
 </head>
 
 <body id="body">
@@ -212,5 +218,15 @@
     <p>© Copyright 2022 TinDog</p>
   </footer>
 </body>
-
+<script src="./js/app.js"></script>
+<!-- <script>
+      if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker
+        .register("/serviceWorker.js")
+        .then(res => console.log("service worker registered"))
+        .catch(err => console.log("service worker not registered", err))
+    })
+  }
+</script> -->
 </html>

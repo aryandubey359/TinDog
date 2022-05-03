@@ -1,0 +1,27 @@
+{
+    "name": "TinDog PWA",
+    "short_name": "TinDog PWA",
+    "start_url": "/",
+    "scope": ".",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FF6600",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "./images/dog-img_144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+            
+        },
+        {
+            "src": "./images/dog-img_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+            
+        }
+    ]
+
+
+}
